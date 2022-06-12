@@ -1,0 +1,6 @@
+Age ,Income,Student,Credit_Rating,Buys_Computer
+< = 30,High,No,Fair,No
+< = 30,High,No,Excellent,No
+< = 30,Medium,No,Fair,No
+< = 30,Low,Yes,Fair,Yes
+< = 30,Mediam,Yes,Excellent,Yes
