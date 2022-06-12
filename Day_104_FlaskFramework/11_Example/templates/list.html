@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table border="1">
+    <thead>
+    <td>Employee Name</td>
+    <td>Employee Post</td>
+    <td>Employee mobile</td>
+    <td>Employee Location</td>
+    <td>Employee Salary</td>
+    </thead>
+    {% for row in rows %}
+    <tr>
+        <td>{{row['emp_name']}}</td>
+        <td>{{row['emp_post']}}</td>
+        <td>{{row['emp_mobile']}}</td>
+        <td>{{row['emp_loc']}}</td>
+        <td>{{row['emp_sal']}}</td>
+    </tr>
+    {% endfor %}
+</table>
+<a href="/">Go Back to Home Page </a>
+</body>
+</html>

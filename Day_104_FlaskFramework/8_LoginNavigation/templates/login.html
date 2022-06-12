@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Login Form</title>
+</head>
+<body>
+<h1>Employee Information Table - Login Form</h1>
+{% if error %}
+<p><strong>Error: </strong> {{error}}</p>
+{% endif%}
+
+<form action="http://127.0.0.1:8084/login" method="post">
+    <dl>
+        <dt> Username: </dt>
+        <dd>
+            <input type="text" name="username" value="", placeholder="Enter Username">
+        </dd>
+        <dt>Password:</dt>
+        <dd><input type="password" name="password" placeholder="Enter Password"></dd>
+    </dl>
+    <p><input type="submit"value="Login"></p>
+</form>
+</body>
+</html>
